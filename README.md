@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project is to forecast future sales using historical sales data and Machine Learning techniques. Accurate sales forecasting helps businesses make informed decisions related to inventory management, demand planning, and resource allocation.
+The objective of this project is to forecast future sales using historical sales data and Machine Learning techniques. Accurate sales forecasting helps businesses make informed decisions regarding inventory management, demand planning, and resource allocation.
 
 ---
 
@@ -19,8 +19,6 @@ The objective of this project is to forecast future sales using historical sales
   * Category
   * Region
   * Order Date
-  * Customer Information
-  * Shipping Details
 
 ---
 
@@ -39,31 +37,31 @@ The objective of this project is to forecast future sales using historical sales
 
 ### 1. Data Collection
 
-* Loaded the Sample Superstore dataset.
-* Explored dataset structure and feature information.
+* Loaded the Superstore sales dataset.
+* Explored dataset structure and features.
 
 ### 2. Data Preprocessing
 
-* Converted **Order Date** to datetime format.
-* Checked and handled missing values.
+* Converted Order Date to datetime format.
+* Checked for missing values.
 * Removed duplicate records.
-* Prepared data for analysis and modeling.
+* Prepared data for analysis.
 
 ### 3. Exploratory Data Analysis (EDA)
 
 * Analyzed sales trends over time.
-* Visualized sales distribution and patterns.
-* Identified trends and business insights using graphical representations.
+* Examined sales distribution.
+* Identified business patterns and insights using visualizations.
 
 ### 4. Model Building
 
-* Applied **Linear Regression** for sales forecasting.
-* Performed train-test split.
-* Trained the model using historical sales data.
+* Applied Linear Regression for forecasting.
+* Split data into training and testing sets.
+* Trained the Machine Learning model.
 
 ### 5. Prediction & Forecasting
 
-* Generated sales predictions on test data.
+* Generated sales predictions.
 * Compared actual and predicted sales values.
 * Forecasted future sales for the next 30 days.
 
@@ -73,20 +71,36 @@ The objective of this project is to forecast future sales using historical sales
 
 * Successfully trained a Linear Regression model.
 * Generated Actual vs Predicted Sales visualizations.
-* Created future sales forecasts based on historical trends.
-* Evaluated model performance using standard regression metrics.
+* Forecasted future sales trends for the next 30 days.
+* Evaluated model performance using regression metrics.
+
+---
+
+## Project Visualizations
+
+### Sales Trend Over Time
+
+![Sales Trend](sales%20trend%20overtime.png)
+
+### Actual vs Predicted Sales
+
+![Actual vs Predicted](Actual%20vs%20predicted%20sales.png)
+
+### Future Sales Forecast
+
+![Future Forecast](future_sales_forecast.png)
 
 ---
 
 ## Business Impact
 
-This project can help organizations:
+This project helps businesses:
 
 * Improve inventory planning.
 * Support demand forecasting.
-* Enable data-driven decision-making.
-* Reduce the risk of stock shortages and overstocking.
-* Enhance operational efficiency.
+* Enable data-driven decision making.
+* Reduce stock shortages and overstock situations.
+* Improve operational efficiency.
 
 ---
 
@@ -96,25 +110,27 @@ This project can help organizations:
 FUTURE_ML_01/
 │
 ├── FUTURE_ML_01.ipynb
-├── sales_trend_overtime.png
-├── actual_vs_predicted_sales.png
-├── future_sales_forecast.png
-└── README.md
+├── README.md
+├── sales trend overtime.png
+├── Actual vs predicted sales.png
+└── future_sales_forecast.png
 ```
 
 ---
 
 ## Future Enhancements
 
-* Implement advanced forecasting models such as Random Forest Regressor and XGBoost.
-* Incorporate seasonal and trend-based features.
-* Improve forecasting accuracy with additional business variables.
-* Deploy the model as a web application for real-time forecasting.
+* Implement advanced forecasting algorithms.
+* Include seasonal and trend-based features.
+* Improve prediction accuracy using additional variables.
+* Deploy the model as a web application.
 
 ---
 
 ## Author
 
+**Pushpa Raja Kumari Pyla**
+
 Machine Learning Internship Project
 
-Sales & Demand Forecasting Using Machine Learning
+**Task 1: Sales & Demand Forecasting Using Machine Learning**
